@@ -1,6 +1,8 @@
 // BODY TEXT
 // ---------
 
+@import "mixins";
+
 p {
   margin: 0 0 $base-line-height / 2;
   font-size: $base-font-size;
