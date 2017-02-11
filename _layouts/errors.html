@@ -1,0 +1,17 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+
+    <link href="/media/errors.css">
+    
+    <%= javascript_include_tag "selectivizr-min" %>
+    <%= javascript_tag do %>
+      try{Typekit.load();}catch(e){}
+    <% end %>
+  </head>
+  <body>
+    <div class="inner">
+      <%= yield %>
+    </div>
+  </body>
+</html>

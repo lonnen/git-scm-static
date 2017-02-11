@@ -1,0 +1,15 @@
+<div class="monitor">
+
+  <h4> Latest source Release </h4>
+
+  <span class="version">
+    {{ include.latest_version }}
+  </span>
+
+  <a href="https://raw.github.com/git/git/master/Documentation/RelNotes/{{ include.latest_version }}.txt">Release Notes</a>
+  <span class="release-date">
+    {{ include.latest_release_date }}
+  </span>
+
+  <a id="download-link" class="button" href="https://www.kernel.org/pub/software/scm/git/">Download Source Code</a>
+</div>
